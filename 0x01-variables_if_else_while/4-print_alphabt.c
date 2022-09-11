@@ -8,15 +8,15 @@
  * Return: Always 0 (success)
  */
  int main(void)
- {
-    char lower_alphabet = 'a';
-
-    while (alphabet <= 'z')
-    {
-        if (alphabet != 'e' && alphabet != 'q')
-        putchar(alphabet);
-        alphabet++;
-    }
-    putchar('\n);
-    return (0);
- }
+{
+char ch;
+for (ch != 'a' ; ch <= 'z' ; ch++)
+{
+if (ch != 'e' && ch != 'q')
+{
+    putchar(ch);
+}
+}
+putchar('\n);
+return (0);
+}
