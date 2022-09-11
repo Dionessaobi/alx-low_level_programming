@@ -5,18 +5,18 @@
  *
  * Description: 'the program's description'
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-   int a = 48;
+	int a = 48;
 
-   while (a < 58)
-   {
-       putchar(a);
-       a++;
-   }
+	while (a < 58)
+	{
+		putchar(a);
+		a++;
+	}
 
-   putchar('\n');
-   return (0);
+	putchar('\n');
+	return (0);
 }
