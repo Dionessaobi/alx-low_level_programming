@@ -21,7 +21,6 @@ while (upper_alphabet <= 'Z')
 putchar(upper_alphabet);
 upper_alphabet++;
 }
-
 putchar('\n');
 return (0);
-} 
+}
