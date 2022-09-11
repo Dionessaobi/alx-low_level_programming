@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: 'to print all numbers of base 16 in lowercase'
- * 
+ *
  * Return: Always 0 (success)
  */
 int main(void)
@@ -22,4 +22,4 @@ putchar(ch);
 }
 putchar('\n');
 return (0);
-} 
+}
