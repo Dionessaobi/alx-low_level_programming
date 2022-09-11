@@ -5,11 +5,12 @@
  * Description: using the main function
  * this program prints "Programming is postitve, zero, or negative
  * Return: 0
- * */
+ */
 int main(void)
 {
 	char ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
+
 	{
 		if (ch != 'e' && ch != 'q')
 		{
