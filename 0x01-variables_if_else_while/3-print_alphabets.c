@@ -24,5 +24,4 @@ upper_alphabet++;
 
 putchar('\n');
 return (0);
-}
- 
+} 
