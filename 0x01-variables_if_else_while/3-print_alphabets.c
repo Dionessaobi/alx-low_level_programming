@@ -5,7 +5,7 @@
  * 
  * Description: 'the program's description'
  * Return: Always 0 (success)
- * /
+ */
  int main(void)
  {
     char lower_alphabet = 'a';

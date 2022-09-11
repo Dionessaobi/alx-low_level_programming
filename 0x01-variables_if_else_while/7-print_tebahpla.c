@@ -6,7 +6,7 @@
  * Description: 'to print the lowercase alphabet in reverse'
  * 
  * Return: Always 0 (success)
- * /
+ */
  int main(void)
  {
     char alphabet;
