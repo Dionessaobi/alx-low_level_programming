@@ -30,9 +30,9 @@ int main(void)
 		{
 			printf(" %s", fb);
 		}
-		else if  (j == 1)
+		else if (j == 1)
 		{
-			printf(" %d", j);
+			printf("%d", j);
 		}
 		else
 		{
