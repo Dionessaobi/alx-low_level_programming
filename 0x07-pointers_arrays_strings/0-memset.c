@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * simple_print_buffer - fills memory with a constant byte
+ * _memset - fills memory with a constant byte
  * @s: the pointer to the memory area
  * @b: the constant byte to be used
  * @n: number of byte of the memory area pointed
