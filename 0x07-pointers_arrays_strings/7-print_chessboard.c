@@ -24,5 +24,6 @@ void print_chessboard(char (*a)[8])
 			else
 				_putchar(a[i][j]);
 		}
+		_putchar('\n');
 	}
 }
