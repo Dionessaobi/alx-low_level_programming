@@ -11,7 +11,6 @@
 * the substring is not found.
 * @NULL: if no substring is found
 */
-
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
