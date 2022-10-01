@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints the number of arguments passed into it
+ * main - prints the arguments passed into it
  * @argv:  argument vector
  * @argc:  argument counters
  *
@@ -10,9 +10,11 @@
  */
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	(void)argc;
+	int j;
 
-	printf("%s\n", argv[0]);
-
+	for (j = 0; j < argc; j++)
+	{
+		printf("%s\n", argv[j]);
+	}
 	return (0);
 }
