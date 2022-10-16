@@ -55,11 +55,6 @@ void _printint(va_list list)
  * @format: constant char argument
  * Return: Void
  */
-
-/**
-* print_all - prints anything
-* @format: list of types of arguments passed
-*/
 void print_all(const char * const format, ...)
 {
 	unsigned int a = 0, b = 0;
